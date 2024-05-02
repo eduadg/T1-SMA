@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es6", // You can target newer ECMAScript versions like es2017 or esnext if you want.
+      "module": "commonjs",
+      "lib": ["es2017", "dom"], // Include es2017 to support padStart or esnext for all current features
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "strict": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true
+    },
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  

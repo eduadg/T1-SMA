@@ -1,0 +1,20 @@
+{
+  "name": "t1_sma",
+  "version": "1.0.0",
+  "main": "Simulator.ts",
+  "scripts": {
+    "setup": "npm install && npm install -g typescript && npm install -g ts-node",
+    "start": "ts-node src/Simulator.ts"
+  },
+  "keywords": [],
+  "author": "Patrick Bomm, Eduardo Martinbiancho, Lucas Barros",
+  "license": "ISC",
+  "description": "Simulation management application for queuing systems using TypeScript.",
+  "dependencies": {
+    "typescript": "^4.5.2",
+    "ts-node": "^10.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8"
+  }
+}
